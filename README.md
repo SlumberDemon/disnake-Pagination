@@ -1,6 +1,6 @@
-# discord.py-pagination
+disnake-pagination
 
-#### discord.py-pagination is a Python library to easily create embed paginators.
+#### disnake-pagination is a Python library to easily create embed paginators.
 
 <img src="https://cdn.soosbot.com/images/pagination-requirement.svg" alt="WARNING IMAGE NOT FOUND">
 
@@ -9,7 +9,7 @@
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the library.
 
 ```bash
-pip install discord.py-pagination
+pip install disnake-pagination
 ```
 
 ## Usage
@@ -19,9 +19,9 @@ pip install discord.py-pagination
 import Paginator
 
 # Create a list of embeds to paginate.
-embeds = [discord.Embed(title="First embed"),
-          discord.Embed(title="Second embed"),
-          discord.Embed(title="Third embed")]
+embeds = [disnake.Embed(title="First embed"),
+          disnake.Embed(title="Second embed"),
+          disnake.Embed(title="Third embed")]
 
 ... # Inside a command.
 await Paginator.Simple().start(ctx, pages=embeds)
@@ -34,9 +34,9 @@ await Paginator.Simple().start(ctx, pages=embeds)
 ```python
 # These arguments override the default ones.
 
-PreviousButton = discord.ui.Button(...)
-NextButton = discord.ui.Button(...)
-PageCounterStyle = discord.ButtonStyle(...) # Only accepts ButtonStyle instead of Button
+PreviousButton = disnake.ui.Button(...)
+NextButton = disnake.ui.Button(...)
+PageCounterStyle = disnake.ButtonStyle(...) # Only accepts ButtonStyle instead of Button
 InitialPage = 0 # Page to start the paginator on.
 timeout = 42069 # Seconds to timeout. Default is 60
 
