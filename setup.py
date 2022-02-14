@@ -4,16 +4,15 @@ with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="discord.py-pagination",
-    version="0.0.3",
+    name="disnake-pagination",
+    version="0.0.1",
     description="Easily create pagination for your embeds.",
     long_description=long_description,
     long_description_content_type='text/markdown',
     py_modules=["Paginator"],
     package_dir={'': "src"},
-    url="https://github.com/soosBot-com/Pagination",
-    author="soosBot",
-    author_email="support@soosbot.com",
+    url="https://github.com/SlumberDemon/disnake-Pagination",
+    author="SlumberDemon",
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Intended Audience :: Developers',
