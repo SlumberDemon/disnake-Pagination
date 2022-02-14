@@ -2,14 +2,10 @@ disnake-pagination
 
 #### disnake-pagination is a Python library to easily create embed paginators.
 
-<img src="https://cdn.soosbot.com/images/pagination-requirement.svg" alt="WARNING IMAGE NOT FOUND">
-
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the library.
-
 ```bash
-pip install disnake-pagination
+pip install git+https://github.com/SlumberDemon/disnake-Pagination
 ```
 
 ## Usage
