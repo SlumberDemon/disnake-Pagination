@@ -82,6 +82,7 @@ class Simple(disnake.ui.View):
             embed = disnake.Embed(description="You cannot control this pagination because you did not execute it.",
                                   color=disnake.Colour.red())
             return await interaction.response.send_message(embed=embed, ephemeral=True)
+        await interaction.response.defer()
         await self.next()
 
     async def previous_button_callback(self, interaction: disnake.Interaction):
@@ -89,6 +90,7 @@ class Simple(disnake.ui.View):
             embed = disnake.Embed(description="You cannot control this pagination because you did not execute it.",
                                   color=disnake.Colour.red())
             return await interaction.response.send_message(embed=embed, ephemeral=True)
+        await interaction.response.defer()
         await self.previous()
 
 
