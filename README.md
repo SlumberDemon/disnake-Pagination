@@ -1,3 +1,9 @@
+FORKED FROM: Pagination!
+
+Please check support the original creation! 
+
+https://github.com/soosBot-com/Pagination
+
 disnake-pagination
 
 #### disnake-pagination is a Python library to easily create embed paginators.
